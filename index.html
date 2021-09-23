@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cultura Maranhense</title>
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Meu Estilo CSS ------------------------------------------>
+    <link rel="stylesheet" href="./estilos/style.css" />
+    <link rel="stylesheet" href="./estilos/style-mobile.css" />
+    <link rel="stylesheet" href="./estilos/modal.css" />
+    <link rel="stylesheet" href="./estilos/footer.css" />
+    <link rel="stylesheet" href="./estilos/footer-mobile.css" />
+
+    <!-- Minhas Fontes ------------------------------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Meu Script -->
+    <script src="./scripts/script.js" defer></script>
+  </head>
+  <body>
+    <!-- HEADER (Cabeçalho) ========================================== -->
+    <header>
+      <div class="header__top">
+        <div class="toggle-button" onclick="Modal.open()">
+          <img src="./imagens/menu-white-48dp.svg" alt="Menu Mobile" />
+        </div>
+        <div class="header__menu">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pontos-turisticos.html">Pontos Turísticos</a></li>
+            <li><a href="./cultura.html">Cultura</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header__title">
+        <h1>Maranhão, meu tesouro, meu torrão 🎶</h1>
+      </div>
+    </header>
+
+    <!-- SECTION 01 (Pontos Turísticos) ========================================== -->
+    <section class="home-container">
+      <div class="home-container__title">
+        <img src="./imagens/beach.png" alt="Bumba meu Boi" />
+        <h1>Pontos Turísticos</h1>
+      </div>
+
+      <!-- Listagem dos Principais Pontos Turísticos do Maranhão -->
+      <div class="turismo">
+        <!-- 1° Ponto Turístico -->
+        <a href="/pontos-turisticos.html#pt-alcantara"
+          ><div class="turismo__cards">
+            <img src="./imagens/alcantara.jpeg" alt="Alcantara" />
+            <h1>Alcântara</h1>
+          </div></a
+        >
+        <!-- 2° Ponto Turístico -->
+        <a href="/pontos-turisticos.html#pt-centro-historico"
+          ><div class="turismo__cards">
+            <img src="./imagens/old.jpg" alt="Centro Histórico" />
+            <h1>Centro Histórico</h1>
+          </div></a
+        >
+        <!-- 3° Ponto Turístico -->
+        <a href="/pontos-turisticos.html#pt-ribamar">
+          <div class="turismo__cards">
+            <img src="./imagens/orlaribamar-1.jpg" alt="São José de Ribamar" />
+            <h1>São José de Ribamar</h1>
+          </div>
+        </a>
+        <!-- 4° Ponto Turístico -->
+        <a href="/pontos-turisticos.html#pt-barreirinhas"
+          ><div class="turismo__cards">
+            <img src="./imagens/dunas.jpg" alt="Barreirinhas" />
+            <h1>Barreirinhas</h1>
+          </div></a
+        >
+        <!-- 5° Ponto Turístico -->
+        <a href="/pontos-turisticos.html#pt-munim">
+          <div class="turismo__cards">
+            <img src="./imagens/riomunim.webp" alt="Região do Munim" />
+            <h1>Região do Munim</h1>
+          </div>
+        </a>
+        <!-- 6° Ponto Turístico -->
+        <a href="/pontos-turisticos.html#pt-chapada-mesas">
+          <div class="turismo__cards">
+            <img src="./imagens/chapada.jpg" alt="Chapada das Mesas" />
+            <h1>Chapada das Mesas</h1>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION 02 (Cultura Maranhense) ========================================== -->
+    <section class="home-container">
+      <div class="home-container__title">
+        <img src="./imagens/bumba-boi-1.jpg" alt="Bumba meu Boi" />
+        <h1>Cultura Maranhense</h1>
+      </div>
+
+      <!-- Culturas Maranhense -->
+      <div class="cultura">
+        <!-- 1° Tópico Cultura Maranhense -->
+        <div class="cultura__cards">
+          <img src="./imagens/cult-danca.png" alt="Festas Populares" />
+          <h1>Festas Populares</h1>
+          <p>
+            A terra da capital do reggae é, também, o lar da diversidade e
+            patrimônio histórico, com uma mistura de ritmos e festas que
+            encanta.
+          </p>
+          <a href="/cultura.html#cult-festas"><button>Saiba Mais</button></a>
+        </div>
+        <!-- 2° Tópico Cultura Maranhense -->
+        <div class="cultura__cards">
+          <img src="./imagens/cult-comida.png" alt="Comidas Típicas" />
+          <h1>Comidas Típicas</h1>
+          <p>
+            A culinária maranhense é uma das mais consagradas culinárias
+            brasileiras, representando bem a região nordestina.
+          </p>
+          <a href="/cultura.html#cult-comidas"><button>Saiba Mais</button></a>
+        </div>
+        <!-- 3° Tópico Cultura Maranhense -->
+        <div class="cultura__cards">
+          <img src="./imagens/cult-lendas.jpg" alt="Lendas e Mistérios" />
+          <h1>Lendas e Mistérios</h1>
+          <p>
+            Aqui no Maranhão há uma variedade de lendas e mistérios que são
+            passadas de geração em geração
+          </p>
+          <a href="/cultura.html#cult-lendas"><button>Saiba Mais</button></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 03 (Deixe seu Feedback) ========================================== -->
+    <section class="formulario-feedback" id="feedback">
+      <h1>Deixe sua Sugestão</h1>
+      <form action="">
+        <input type="text" placeholder="Digite seu nome" required />
+        <input type="email" placeholder="Digite seu email" required />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Digite sua Sugestão"
+          required
+        ></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- FOOTER ========================================== -->
+    <footer>
+      <div class="footer-left">
+        <div class="footer-left__menu">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pontos-turisticos.html">Pontos Turísticos</a></li>
+            <li><a href="./cultura.html">Cultura</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-right__social">
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+        <span>© 2021 Cultura Maranhense. All rights reserved.</span>
+        <span><a href="./referencias.txt" target="_blank">Referências</a></span>
+      </div>
+    </footer>
+
+    <!--##########################-->
+    <!--######### Modal #########-->
+    <!--##########################-->
+    <div class="modal">
+      <div class="modal-close" onclick="Modal.close()">
+        <i class="fas fa-times fa-3x"></i>
+      </div>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./pontos-turisticos.html">Pontos Turísticos</a></li>
+        <li><a href="./cultura.html">Cultura</a></li>
+        <li><a href="#feedback" onclick="Modal.close()">Feedback</a></li>
+      </ul>
+    </div>
+  </body>
+</html>

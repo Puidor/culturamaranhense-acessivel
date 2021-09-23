@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cultura Maranhense</title>
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Meu Estilo CSS ------------------------------------------>
+    <link rel="stylesheet" href="./estilos/cultura.css" />
+    <link rel="stylesheet" href="./estilos/cultura-mobile.css" />
+    <link rel="stylesheet" href="./estilos/modal.css" />
+    <link rel="stylesheet" href="./estilos/footer.css" />
+    <link rel="stylesheet" href="./estilos/footer-mobile.css" />
+
+    <!-- Minhas Fontes ------------------------------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Meu Script -->
+    <script src="./scripts/script.js" defer></script>
+  </head>
+  <body>
+    <!-- HEADER (Cabeçalho) ========================================== -->
+    <header>
+      <div class="header__top">
+        <div class="toggle-button" onclick="Modal.open()">
+          <img src="./imagens/menu-white-48dp.svg" alt="Menu Mobile" />
+        </div>
+        <div class="header__menu">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pontos-turisticos.html">Pontos Turísticos</a></li>
+            <li><a href="./cultura.html">Cultura</a></li>
+            <li><a href="/index.html#feedback">Feedback</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header__title">
+        <h1>Cultura Maranhense</h1>
+      </div>
+    </header>
+
+    <!-- Cultura Maranhense ========================================== -->
+    <main">
+      <!-- SECTION 01 (FESTAS POPULARES) ========================================== -->
+      <section class="cultura" id="cult-festas">
+        <!-- Titulo Festas populares -->
+        <div class="cultura__title">
+          <img src="./imagens/cult-danca.png" alt="Bumba meu Boi" />
+          <h1>Festas Populares</h1>
+        </div>
+        <!-- BUMBA MEU BOI -->
+        <div class="cultura__tema">
+          <img src="./imagens/bumba-boi-1.jpg" alt="Alcantara" />
+          <div class="cultura__descricao">
+            <h2>Bumba-Meu-Boi</h2>
+            <p>
+              Num espetáculo de cores, danças e ritmos, o Bumba-Meu-Boi é a
+              expressão máxima da cultura popular do Maranhão. Elevado a
+              Patrimônio Imaterial do povo brasileiro, a manifestação tem
+              origens indefinidas, mas elementos culturais africanos e europeus,
+              introduzidos principalmente por meio da religiosidade, são
+              evidentes. No Bumba-Meu-Boi do Maranhão a variedade de sotaques,
+              ou ritmos, faz a diferença. São basicamente cinco:
+            </p>
+            <!-- 1° Sotaque -->
+            <h3>Sotaque de Zabumba</h3>
+            <p>
+              Ritmo original do Bumba-meu-boi, marca a forte influência africana
+              na manifestação. São utilizados instrumentos como pandeirinhos,
+              maracás e tantãs, além das zabumbas. No vestuário destacam-se
+              golas e saiotas bordadas e chapéus com fitas coloridas. Pertencem
+              a esse grupo bois como o Boi Fé em Deus e Boi de Leonardo.
+            </p>
+            <!-- 2° Sotaque -->
+            <h3>Sotaque de Orquestra</h3>
+            <p>
+              Ao incorporar outras influências, o Bumba-meu-boi ganha o
+              acompanhamento de diversos instrumentos de sopro e cordas. O
+              vestuário é bem elaborado e diferenciado dos demais ritmos. Dentre
+              os mais conhecidos, estão Bois de Axixá, Boi de Sonhos e Boi de
+              Nina Rodrigues.
+            </p>
+            <!-- 3° Sotaque -->
+            <h3>Sotaque de Pindaré</h3>
+            <p>
+              Matracas e pandeiros pequenos dão o ritmo deste sotaque. E o
+              personagem Cazumbá, uma mistura de homem e bicho é o destaque que
+              diverte os brincantes e o público. Destacam-se os bois da Baixada,
+              o Boi de Apolônio, Boi de Pindaré, Boi Unidos de Santa Fé.
+            </p>
+            <!-- 4° Sotaque -->
+            <h3>Sotaque de Costa de Mão</h3>
+            <p>
+              Típico da região de Cururupu – Floresta dos Guarás – recebe este
+              nome em virtude de uns pequenos pandeiros tocados com as costas
+              das mãos. Além de roupa em veludo bordado, os brincantes usam
+              chapéus em forma de cogumelo, com fitas coloridas e grinaldas de
+              flores. O Boi de Cururupu é o mais tradicional.
+            </p>
+            <!-- 5° Sotaque -->
+            <h3>Sotaque da Ilha ou de Matraca</h3>
+            <p>
+              Como são conhecidos os bois originários da ilha de São Luís e que
+              utilizam como principais instrumentos as matracas e os chamados
+              pandeirões. São os mais populares e queridos, formando verdadeiras
+              nações, a exemplo dos bois de Maracanã, Maioba e Madre Deus.
+            </p>
+            <a
+              title="Saiba Mais"
+              href="https://www.turismo.ma.gov.br/cultura-e-festas-populares/"
+              class="btn-saiba-mais"
+              target="_blank"
+            >
+              Saiba Mais >
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 02 (Comidas Típicas) ========================================== -->
+      <section class="cultura" id="cult-comidas">
+        <!-- Titulo Festas populares -->
+        <div class="cultura__title">
+          <img src="./imagens/cult-comida.png" alt="Comidas Típicas" />
+          <h1>Comidas Típicas</h1>
+        </div>
+        <!-- BUMBA MEU BOI -->
+        <div class="cultura__tema">
+          <img src="./imagens/acai-na-tigela.png" alt="Açai na Tigela" />
+          <div class="cultura__descricao">
+            <!-- 1° Comida Tipica -->
+            <h3>Arroz de cuxá</h3>
+            <p>
+              Provavelmente o prato mais tradicional da culinária maranhense, o
+              arroz de cuxá é feito com a vinagreira. Tradicionalmente servido
+              como acompanhamento para frutos-do-mar, peixes fritos e ensopados,
+              esse arroz demanda maestria em seu preparo, porque a vinagreira é
+              uma erva ácida e amarga, o que dificulta seu preparo e exige um
+              controle de proporções para que o arroz não fique com um gosto
+              ruim. Mas quando bem feito, é uma experiência única para o seu
+              paladar!
+            </p>
+            <!-- 2° Comida Tipica -->
+            <h3>Peixada Maranhense</h3>
+            <p>
+              Parecida com uma moqueca, a peixada maranhense é um cozido bem
+              temperado de peixe, normalmente feita de pescada, mas também pode
+              ser feita com outros peixes parecidos. Seu diferencial é o ovo
+              cozido que vai junto. Um prato único e típico da região, que vai
+              bem até em dias de calor.
+            </p>
+            <!-- 3° Comida Tipica -->
+            <h3>Carne de Sol</h3>
+            <p>
+              A carne de sol é um clássico da culinária nordestina como um todo,
+              fazendo parte do dia-a-dia da região. No Maranhão não seria
+              diferente e por isso existem várias preparações diferentes. Desde
+              paçoca de carne de sol até grelhada com bastante manteiga de
+              garrafa, o segredo da versão maranhense está nos acompanhamentos
+              que, além de mandioca frita, farofa e queijo coalho, também pode
+              acompanhar banana frita, bastante arroz e feijão com legumes.
+            </p>
+            <!-- 4° Comida Tipica -->
+            <h3>Sururu ao Leite de Coco</h3>
+            <p>
+              O sururu é um molusco muito consumido no litoral do Nordeste.
+              Extremamente saboroso, permite várias combinações e na culinária
+              maranhense ele se junta ao leite de coco para virar um ensopado
+              parecido com uma moqueca, muito apetitoso e bem temperado com
+              sabores típicos da região como dendê, coentro e pimenta-de-cheiro.
+            </p>
+            <!-- 5° Comida Tipica -->
+            <h3>Juçara</h3>
+            <p>
+              O juçara é o açaí do Maranhão. As frutas, que são da mesma
+              família, são diferentes entre si, mas são consumidas de maneira
+              semelhante. Apesar de ser consumida com granola e banana por
+              algumas pessoas, a maneira preferida de consumo dos maranhenses é
+              com camarão seco e farinha d’água, podendo ser consumida até com
+              carne de sol.
+            </p>
+
+            <a
+              title="Saiba Mais"
+              href="https://blog.tudogostoso.com.br/materia/culinaria-maranhense/"
+              class="btn-saiba-mais"
+              target="_blank"
+            >
+              Saiba Mais >
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 03 (lendas e Mistérios) ========================================== -->
+      <section class="cultura" id="cult-lendas">
+        <!-- Titulo Festas populares -->
+        <div class="cultura__title">
+          <img src="./imagens/cult-lendas.jpg" alt="Lendas e Mistérios" />
+          <h1>Lendas e Mistérios</h1>
+        </div>
+        <!-- Lendas e Mistérios -->
+        <div class="cultura__tema">
+          <img src="./imagens/cult-danca.png" alt="Açai na Tigela" />
+          <div class="cultura__descricao">
+            <!-- 1° Lenda -->
+            <h3>Carruagem Encantada de Ana Jansen</h3>
+            <p>
+              Ana Joaquina Jansen Pereira, também conhecida como “Donana”, morou
+              em São Luís no século 19. Ela era uma mulher a frente do seu
+              tempo, foi uma comerciante riquíssima e casou-se duas vezes. A
+              partir disso, Donana tomou as rédeas de sua vida e causou uma
+              revolução no estado, conduzindo a maior produção de algodão e
+              cana-de-açúcar do Império, além de possuir o maior número de
+              escravizados da região. Além de seu poder, que causava inveja e
+              repúdio em muitos, a mulher ficou conhecida pelo comportamento
+              maléfico com que tratava seus funcionários e escravizados,
+              açoitando e mutilando-os com crueldade. Segundo o mito, por suas
+              ações em vida, a mulher teria sido condenada a passar a eternidade
+              vagando pelas ruas de São Luís em uma carruagem assombrada.
+              Durante as noites de sexta-feira, o veículo conduzido por um
+              escravizado ensanguentado sem cabeça e puxado por cavalos
+              decapitados, perambularia pelas ruas de São Luís sob o coro de
+              lamentos de seus escravizados torturados.
+            </p>
+            <!-- 2° Lenda -->
+            <h3>Lenda da Serpente Encantada</h3>
+            <p>
+              Essa é uma das lendas mais conhecidas por aqui. A Serpente
+              Encantada vive nas galerias subterrâneas de São Luís, e não para
+              de crescer. Reza a lenda que um dia sua cabeça, que fica debaixo
+              da Fonte do Ribeirão, encontrará o rabo, que está na igreja São
+              Pantaleão, causando o afundamento da ilha. Se você nunca ouviu que
+              quando chove e, São Luís alaga, é porque a Serpente Encantada está
+              levando a cidade abaixo, você não sabe o que é medo.
+            </p>
+            <!-- 3° Lenda -->
+            <h3>Manguda</h3>
+            <p>
+              No final do século XIX, um fantasma assombrava a região onde fica
+              a Praça Gonçalves Dias, no Centro de São Luís. Os que afirmaram já
+              ter visto a assombração, contam que ela era muito branca e possuía
+              uma estranha luz no lugar onde seria a cabeça. Mas você sabe o
+              porquê da invenção dessa lenda?
+            </p>
+            <p>
+              Em São Luís, tinha um porto no Jenipapeiro, onde era um dos mais
+              distantes e por isso ele era muito utilizado por comerciantes para
+              contrabando. As visitas inoportunas de curiosos era constante. Por
+              causa disso, os defraudadores se fantasiavam de fantasma com
+              lençóis. Nesse momento surge a Lenda da Manguda, na qual seu
+              objetivo era espantar os curiosos. A farsa foi descoberta depois,
+              mas a lenda continuou circulando.
+            </p>
+            <!-- 4° Lenda -->
+            <h3>Praia de Olho D'Água</h3>
+            <p>
+              Você já banhou na Praia do Olho D'água? Se sim, então você
+              mergulhou nas lágrimas da índia, filha de Itaporama. A moça
+              apaixonou-se por um rapaz da tribo, que era muito bonito. Isso fez
+              com que a Mãe D'água tivesse um crush por ele. O jovem índio
+              acabou sendo seduzido e levado para o palácio encantado da
+              entidade nas profundezas do mar. Sem o amor correspondido, a moça
+              foi para a beira do mar e chorou até morrer, e de suas lágrimas,
+              surgiram duas nascentes que correm até hoje para o mar.
+            </p>
+
+            <a
+              title="Saiba Mais"
+              href="https://imirante.com/namira/sao-luis/noticias/2019/09/08/conheca-lendas-e-misterios-de-sao-luis-que-circulam-ha-anos.shtml"
+              class="btn-saiba-mais"
+              target="_blank"
+            >
+              Saiba Mais >
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER ========================================== -->
+    <footer>
+      <div class="footer-left">
+        <div class="footer-left__menu">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pontos-turisticos.html">Pontos Turísticos</a></li>
+            <li><a href="./cultura.html">Cultura</a></li>
+            <li><a href="/index.html#feedback">Feedback</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-right__social">
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+        <span>© 2021 Cultura Maranhense. All rights reserved.</span>
+        <span><a href="./referencias.txt" target="_blank">Referências</a></span>
+      </div>
+    </footer>
+
+    <!--##########################-->
+    <!--######### Modal #########-->
+    <!--##########################-->
+    <div class="modal">
+      <div class="modal-close" onclick="Modal.close()">
+        <i class="fas fa-times fa-3x"></i>
+      </div>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./pontos-turisticos.html">Pontos Turísticos</a></li>
+        <li><a href="./cultura.html">Cultura</a></li>
+        <li><a href="/index.html#feedback">Feedback</a></li>
+      </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pontos Turísticos</title>
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Meu Estilo CSS ------------------------------------------>
+    <link rel="stylesheet" href="./estilos/pontos-turisticos.css" />
+    <link rel="stylesheet" href="./estilos/pontos-turisticos-mobile.css" />
+    <link rel="stylesheet" href="./estilos/modal.css" />
+    <link rel="stylesheet" href="./estilos/footer.css" />
+    <link rel="stylesheet" href="./estilos/footer-mobile.css" />
+
+    <!-- Minhas Fontes ------------------------------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Meu Script -->
+    <script src="./scripts/script.js" defer></script>
+  </head>
+  <body>
+    <!-- HEADER (Cabeçalho) ========================================== -->
+    <header>
+      <div class="header__top">
+        <div class="toggle-button" onclick="Modal.open()">
+          <img src="./imagens/menu-white-48dp.svg" alt="Menu Mobile" />
+        </div>
+        <div class="header__menu">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pontos-turisticos.html">Pontos Turísticos</a></li>
+            <li><a href="./cultura.html">Cultura</a></li>
+            <li><a href="/index.html#feedback">Feedback</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header__title">
+        <h1>Pontos Turísticos</h1>
+      </div>
+    </header>
+
+    <!-- PONTOS TURÍSTICOS ========================================== -->
+    <main class="turismo" id="pt-alcantara">
+      <!-- 1° Ponto Turístico -->
+      <section class="turismo__cidade">
+        <img src="./imagens/alcantara.jpeg" alt="Alcantara" />
+        <div class="turismo_descricao">
+          <h2>Alcântara</h2>
+          <p>
+            Conhecida como "a cidade que parou no tempo", Alcântara guarda um
+            conjunto de mais de 300 construções coloniais - muitas em ruínas,
+            como a Matriz de São Matias, cartão-postal da cidadezinha. Sobrados,
+            igrejas e palácios são heranças do período de ouro da vila que, no
+            século 18, teve seu apogeu com as lavouras de cana-de-açúcar e de
+            algodão. Algumas antigas residências que pertenceram aos barões
+            ainda exibem marcas da ostentação, como sacadas de ferro, mirantes e
+            azulejos trazidos de Portugal.
+          </p>
+          <a
+            title="Saiba Mais"
+            href="https://www.feriasbrasil.com.br/ma/alcantara/ "
+            class="btn-saiba-mais"
+            target="_blank"
+          >
+            Saiba Mais >
+          </a>
+        </div>
+      </section>
+      <!-- 2° Ponto Turístico -->
+      <section class="turismo__cidade" id="pt-centro-historico">
+        <img src="./imagens/old.jpg" alt="Centro Histórico" />
+        <div class="turismo_descricao">
+          <h2>Centro Histórico</h2>
+          <p>
+            O centro histórico de São Luís, localizado na ilha de São Luís do
+            Maranhão, é um exemplo excepcional de cidade colonial portuguesa
+            adaptada às condições climáticas da América do Sul equatorial. Entre
+            as edificações mais significativas, estão o Palácio dos Leões, a
+            Catedral (antiga Igreja dos Jesuítas), o Convento das Mercês, a Casa
+            das Minas, o Teatro Artur Azevedo, a Casa das Tulhas, a Igreja do
+            Carmo, entre outras.
+          </p>
+          <a
+            title="Saiba Mais"
+            href="http://portal.iphan.gov.br/pagina/detalhes/34"
+            class="btn-saiba-mais"
+            target="_blank"
+          >
+            Saiba Mais >
+          </a>
+        </div>
+      </section>
+      <!-- 3° Ponto Turístico -->
+      <section class="turismo__cidade" id="pt-ribamar">
+        <img src="./imagens/orlaribamar-1.jpg" alt="São José de Ribamar" />
+        <div class="turismo_descricao">
+          <h2>São José de Ribamar</h2>
+          <p>
+            São José de Ribamar é sinônimo de paz e tranqüilidade. A cidade fica
+            a 32 quilômetros de São Luís e tem atrativos como praias, comidas
+            deliciosas à base de frutos do mar (destaque para o tradicional
+            peixe-pedra frito) e histórias, girando em torno da figura do santo
+            padroeiro – São José. Segundo a lenda, a igreja da cidade teria
+            desabado duas vezes até ser construída de frente para o mar, como
+            era o desejo do Santo. Em setembro, uma grande festa em homenagem ao
+            padroeiro acontece no período da lua cheia, atraindo milhares e
+            fiéis àquela cidade.
+          </p>
+          <a
+            title="Saiba Mais"
+            href="https://www.turismo.ma.gov.br/sao-jose-de-ribamar/"
+            class="btn-saiba-mais"
+            target="_blank"
+          >
+            Saiba Mais >
+          </a>
+        </div>
+      </section>
+      <!-- 4° Ponto Turístico -->
+      <section class="turismo__cidade" id="pt-barreirinhas">
+        <img src="./imagens/dunas.jpg" alt="Barreirinhas" />
+        <div class="turismo_descricao">
+          <h2>Barreirinhas</h2>
+          <p>
+            Barreirinhas é a principal porta de entrada ao Parque Nacional dos
+            Lençóis Maranhenses. Alguns lugares que o visitante não pode deixar
+            de conhecer são o Parque Nacional dos Lençóis Maranhenses, Caburé,
+            Atins e Mandacaru. Barreirinhas é uma cidade pacata e acolhedora,
+            que ao longo dos anos se transformou rapidamente em um polo
+            turístico de renome internacional.
+          </p>
+          <a
+            title="Saiba Mais"
+            href="https://www.guiadoturismobrasil.com/cidade/MA/413/barreirinhas"
+            class="btn-saiba-mais"
+            target="_blank"
+          >
+            Saiba Mais >
+          </a>
+        </div>
+      </section>
+      <!-- 5° Ponto Turístico -->
+      <section class="turismo__cidade" id="pt-munim">
+        <img src="./imagens/riomunim.webp" alt="Região do Munim" />
+        <div class="turismo_descricao">
+          <h2>Região do Munim</h2>
+          <p>
+            Igrejas em diversos estilos, casarios coloniais e uma cultura
+            vibrante, onde o Bumba-meu-boi, em seus diferentes sotaques, reina
+            absoluto, é o que você pode esperar do Pólo de Munim. Composto por
+            seis municípios maranhenses, Axixá, Icatu, Rosário, Presidente
+            Juscelino, Cachoeira Grande e Morros, que guardam riquezas culturais
+            e naturais, como ruínas seculares, cachoeiras, rios e riachos de
+            águas cristalinas e um litoral ainda intocado. A região é
+            caracterizada por uma grande quantidade de morros, com lindas
+            paisagens de mata nativa, coberta por vegetações distintas de
+            babaçus, juçaras e buritizais.
+          </p>
+          <a
+            title="Saiba Mais"
+            href="https://www.turismo.ma.gov.br/munim/"
+            class="btn-saiba-mais"
+            target="_blank"
+          >
+            Saiba Mais >
+          </a>
+        </div>
+      </section>
+      <!-- 6° Ponto Turístico -->
+      <section class="turismo__cidade" id="pt-chapada-mesas">
+        <img src="./imagens/chapada.jpg" alt="Chapada das Mesas" />
+        <div class="turismo_descricao">
+          <h2>Chapada das Mesas</h2>
+          <p>
+            O Parque Nacional da Chapada das Mesas, localizado bem próximo à
+            divisa com o Tocantins, tem um cardápio de cachoeiras e lagos de
+            tonalidades azuis impressionantes. E com vantagens: não é roots nem
+            tem trilhas difíceis como em outras chapadas. Quase todas as
+            cachoeiras contam com passarelas de madeira, o que deixa tudo mais
+            fácil na hora de circular, tanto que não faltam famílias com
+            crianças e idosos.
+          </p>
+          <a
+            title="Saiba Mais"
+            href="https://viagemeturismo.abril.com.br/brasil/chapada-das-mesas-maranhao-como-chegar-quando-ir-passeios/"
+            class="btn-saiba-mais"
+            target="_blank"
+          >
+            Saiba Mais >
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER ========================================== -->
+    <footer>
+      <div class="footer-left">
+        <div class="footer-left__menu">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pontos-turisticos.html">Pontos Turísticos</a></li>
+            <li><a href="./cultura.html">Cultura</a></li>
+            <li><a href="/index.html#feedback">Feedback</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-right__social">
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+        <span>© 2021 Cultura Maranhense. All rights reserved.</span>
+        <span><a href="./referencias.txt" target="_blank">Referências</a></span>
+      </div>
+    </footer>
+
+    <!--##########################-->
+    <!--######### Modal #########-->
+    <!--##########################-->
+    <div class="modal">
+      <div class="modal-close" onclick="Modal.close()">
+        <i class="fas fa-times fa-3x"></i>
+      </div>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./pontos-turisticos.html">Pontos Turísticos</a></li>
+        <li><a href="./cultura.html">Cultura</a></li>
+        <li><a href="/index.html#feedback">Feedback</a></li>
+      </ul>
+    </div>
+  </body>
+</html>

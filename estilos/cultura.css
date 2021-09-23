@@ -1,0 +1,178 @@
+/* Estilos Globais =============================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+
+/*Header =============================== */
+header {
+  background-image: url(/imagens/cultura-header-02.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 30rem;
+  padding: 5rem 15rem;
+
+  color: white;
+}
+
+.header__top {
+  display: flex;
+  align-items: flex;
+  justify-content: right;
+
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.header__top ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__top ul li {
+  margin: 1rem;
+  cursor: pointer;
+  transition: opacity 0.25s;
+}
+
+.header__top ul li:hover {
+  opacity: 0.7;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+
+  width: initial;
+
+  padding: 0;
+  margin: 0;
+}
+
+.toggle-button {
+  display: none;
+}
+
+.header__title {
+  font-weight: bold;
+  margin-top: 5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+}
+/*Main =============================== */
+
+.cultura {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+  margin-top: 6rem;
+}
+
+/* Titulo Danças Populares =============================== */
+.cultura__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cultura__title > img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+  transition: transform 0.25s;
+}
+
+.cultura__title > h1 {
+  color: #2e384d;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  border-bottom: 4px solid #2e384d;
+  transition: opacity 0.25s;
+  cursor: pointer;
+}
+
+.cultura__title > h1:hover {
+  opacity: 0.7;
+}
+
+/* Cards (Cultura Maranhense) =============================== */
+
+.cultura__tema {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-bottom: 4rem;
+  width: 100vw;
+}
+
+.cultura__tema > img {
+  width: 30%;
+  height: 40rem;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.cultura__descricao {
+  color: #868585;
+  margin: 5rem auto;
+  line-height: 1.5;
+  padding: 1rem;
+  width: 50%;
+}
+.cultura__descricao > h2 {
+  color: #2e384d;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.cultura__descricao > h3 {
+  color: #2e384d;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+.cultura__descricao > p {
+  margin-bottom: 0.5rem;
+}
+
+.btn-saiba-mais {
+  font: 400 1.8rem/1 "Roboto", sans-serif;
+  color: #2e384d;
+  text-decoration: underline;
+  width: 12rem;
+  height: 4rem;
+  margin-top: 2rem;
+
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: ease;
+  transition: 0.2s;
+}

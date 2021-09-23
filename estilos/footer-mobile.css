@@ -1,0 +1,26 @@
+@media (max-width: 1180px) {
+  footer {
+    flex-direction: column;
+    padding: 5rem 5rem;
+  }
+
+  .footer-left__menu ul {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .footer-left__menu ul li {
+    margin-top: 1.5rem;
+  }
+
+  .footer-right__social {
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer-right > span {
+    align-self: center;
+    margin-bottom: 1rem;
+  }
+}

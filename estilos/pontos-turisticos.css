@@ -1,0 +1,139 @@
+/* Estilos Globais =============================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+
+/*Header =============================== */
+header {
+  background-image: url(/imagens/dunas.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 30rem;
+  padding: 5rem 15rem;
+
+  color: white;
+}
+
+.header__top {
+  display: flex;
+  align-items: flex;
+  justify-content: right;
+
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.header__top ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__top ul li {
+  margin: 1rem;
+  cursor: pointer;
+  transition: opacity 0.25s;
+}
+
+.header__top ul li:hover {
+  opacity: 0.7;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+
+  width: initial;
+
+  padding: 0;
+  margin: 0;
+}
+
+.toggle-button {
+  display: none;
+}
+
+header .header__title {
+  font-weight: bold;
+  margin-top: 5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+}
+/*================================================= */
+/*Pontos Turisticos =============================== */
+/*================================================= */
+
+.turismo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+  margin-top: 6rem;
+}
+
+.turismo__cidade {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-bottom: 4rem;
+  width: 100vw;
+}
+
+.turismo__cidade > img {
+  width: 30%;
+  height: 40rem;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.turismo_descricao {
+  color: #868585;
+  margin: 5rem auto;
+  line-height: 1.5;
+  padding: 1rem;
+  width: 50%;
+  border-left: 5px solid #2e384d;
+}
+
+.turismo_descricao > h2 {
+  color: #2e384d;
+  margin-bottom: 1rem;
+}
+
+.btn-saiba-mais {
+  font: 400 1.8rem/1 "Roboto", sans-serif;
+  color: #2e384d;
+  text-decoration: underline;
+  width: 12rem;
+  height: 4rem;
+
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: ease;
+  transition: 0.2s;
+}

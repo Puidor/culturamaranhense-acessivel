@@ -1,0 +1,46 @@
+@media (max-width: 1180px) {
+  /*Header =============================== */
+  header {
+    padding: 5rem 3rem;
+  }
+
+  .toggle-button {
+    cursor: pointer;
+    display: initial;
+  }
+
+  .header__menu {
+    width: 100%;
+    display: none;
+    padding-bottom: 3rem;
+  }
+
+  .header__title {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  /* Cards (Cultura Maranhense) =============================== */
+
+  .cultura__title > img {
+    width: 6rem;
+    height: 6rem;
+  }
+  .cultura__title > h1 {
+    font-size: 2.5rem;
+    border-bottom: 2px solid #2e384d;
+  }
+
+  .cultura {
+    width: 100vw;
+  }
+  .cultura__tema {
+    flex-direction: column;
+  }
+  .cultura__tema > img {
+    display: none;
+  }
+  .cultura__descricao {
+    width: 95%;
+  }
+}
