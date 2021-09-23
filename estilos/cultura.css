@@ -124,8 +124,8 @@ header {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  margin-bottom: 4rem;
   width: 100vw;
+  margin-bottom: 4rem;
 }
 
 .cultura__tema > img {
