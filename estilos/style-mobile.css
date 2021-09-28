@@ -1,4 +1,5 @@
-@media (max-width: 1180px) {
+/* Telas até 1024px */
+@media (max-width: 1024px) {
   /*Header =============================== */
   header {
     padding: 5rem 3rem;
@@ -43,7 +44,7 @@
   }
 
   .turismo__cards {
-    width: 100%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -63,5 +64,13 @@
 
   .formulario-feedback > form {
     width: 90%;
+  }
+}
+
+/* Telas até 768px */
+@media (max-width: 768px) {
+  /*Section 01 (Pontos Turisticos) =============================== */
+  .turismo__cards {
+    width: 100%;
   }
 }

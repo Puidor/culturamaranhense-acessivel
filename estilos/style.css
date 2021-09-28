@@ -168,13 +168,18 @@ header .header__title:hover {
 }
 
 /*Section 02 (Cultura Maranhense) =============================== */
+.cultura {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 5rem;
+}
+
 .cultura__cards {
   display: flex;
   align-items: center;
   justify-content: end;
   flex-direction: column;
-  width: 40rem;
-  height: 30rem;
+  width: 30%;
 }
 
 .cultura__cards > img {

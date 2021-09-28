@@ -1,4 +1,4 @@
-@media (max-width: 1180px) {
+@media (max-width: 1024px) {
   footer {
     flex-direction: column;
     padding: 5rem 5rem;
