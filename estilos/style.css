@@ -151,7 +151,7 @@ header .header__title:hover {
   height: 100%;
 }
 
-.turismo__cards > h1 {
+.turismo__cards > h2 {
   color: white;
   position: absolute;
   top: 0;
@@ -163,7 +163,7 @@ header .header__title:hover {
   align-items: flex-end;
   padding: 3rem;
 }
-.turismo__cards > h1:hover {
+.turismo__cards > h2:hover {
   background: rgba(0, 0, 0, 0.4);
 }
 
@@ -187,7 +187,7 @@ header .header__title:hover {
   border-radius: 50%;
 }
 
-.cultura__cards > h1 {
+.cultura__cards > h2 {
   color: #2e384d;
   font-family: "Roboto", sans-serif;
 }
