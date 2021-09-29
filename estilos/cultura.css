@@ -35,7 +35,7 @@ header {
 
 .header__top {
   display: flex;
-  align-items: flex;
+  align-items: center;
   justify-content: right;
 
   font-size: 1.6rem;
